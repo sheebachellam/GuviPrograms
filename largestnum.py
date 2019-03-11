@@ -1,11 +1,11 @@
-num1 = 10
-num2 = 14
-num3 = 12
-if (num1 >= num2) and (num1 >= num3):
+a = 10
+b = 14
+c = 12
+if (a >= b) and (a >= c):
    largest = num1
-elif (num2 >= num1) and (num2 >= num3):
-   largest = num2
+elif (b >= a) and (b >= c):
+   largest = b
 else:
-   largest = num3
+   largest = c
 
-print("The largest number between",num1,",",num2,"and",num3,"is",largest)
+print("The largest number between",a,",",b,"and",c,"is",largest)
